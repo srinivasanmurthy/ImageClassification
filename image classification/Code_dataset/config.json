@@ -1,0 +1,34 @@
+{
+  "time_periods": {
+    "morning": {
+      "start": 14,
+      "end": 15
+    },
+    "afternoon": {
+      "start": 15,
+      "end": 16
+    },
+    "evening": {
+      "start": 16,
+      "end": 17
+    }
+  },
+  "known_faces": [
+    ["photos/siva.jpg", "siva"],
+    ["photos/sarath.jpg", "sarath"],
+    ["photos/divya.jpg", "divya"],
+    ["photos/dhanush.jpg", "dhanush"]
+  ],
+  "email": {
+    "sender": "kumarsarath6246@gmail.com",
+    "password": "nyhmoalbkiwvjgbk",
+    "receiver": "unknown012045@gmail.com"
+  },
+  "parent_emails": {
+    "siva": "sivakumarvenkatesan513@gmail.com",
+    "sarath": "unknown012045@gmail.com",
+    "divya": "unknown012045@gmail.com",
+    "dhanush": "kumardhanush943@gmail.com"
+  },
+  "time_limit": 60
+}

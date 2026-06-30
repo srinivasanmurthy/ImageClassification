@@ -1,0 +1,26 @@
+PROJECT TITLE: "Human faceImage classification & Attendance System"
+
+Pre-requisites : The specific Python version (3.11) given in the code_dataset folder has to be installed in the system by running it. while running click the check box (add python.exe) to path.
+
+LIBRARIES USED:  "Face_recognition"
+		 "Dlib" [The dlib library has been given. open the command prompt, point the location where the file located. run the command using (pip install dlib-19.24.1-cp311-cp311-win_amd64.whl)]
+		 "OpenCV-python"
+		 "pandas"
+		 "openpyxl"
+		 "NumPy==1.23.5" 
+
+[The above libraries should be installed using (pip install library name) in the command prompt]
+		 
+Steps to run the program
+
+Step 1: Save the programs files contains (Main, config.json)  and 'photos' folder in the same location/folder.
+
+Step 2: Upload the student images in the photos folder and save the images with the student names.
+
+Step 3: change the names in the config.json with student names (same as that you have given for photos in the Known_Faces in config file).
+
+Step 4: You can change the sender (admin), receiver(hod/principal), password and parents email id's before starting the application.
+
+Step 5: Open idle and open the "Main" file path and click F5 to run the program, or open cmd prompt move the location to the file located and run the file as(python Main).
+
+Step 6: By default, '60 seconds' have been provided in the set up currently (can be modified as per requirement, in seconds only).
